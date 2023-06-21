@@ -1,10 +1,7 @@
-- name: Include task Example
+- name: Universal task Example
   hosts: all
   tasks:
-    - name: Print debug
+    - name: Universal
       ansible.builtin.debug:
-        msg: print Debug msg
+        msg: print Universal msg
 
-    - name: Include a file
-      ansible.builtin.include_tasks:
-        file: universal.yml
