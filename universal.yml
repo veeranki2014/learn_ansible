@@ -1,6 +1,4 @@
-- name: Universal task Example
-  hosts: all
-  tasks:
+
     - name: Universal
       ansible.builtin.debug:
         msg: print Universal msg
