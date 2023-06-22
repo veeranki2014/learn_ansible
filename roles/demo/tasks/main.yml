@@ -3,4 +3,4 @@
   tasks:
     - name: Sample Role
       ansible.builtin.debug:
-        msg: Hello World - Sample Role
+       msg: Hello World - Sample Role
