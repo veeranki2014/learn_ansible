@@ -1,0 +1,6 @@
+- name: Roles Demo
+  hosts: all
+  tasks:
+    - name: Sample Role
+      ansible.builtin.debug:
+        msg: Sample Role
