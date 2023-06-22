@@ -8,3 +8,7 @@
     - name: Include a file
       ansible.builtin.include_tasks:
         file: universal.yml
+
+    - name: import a file
+      ansible.builtin.import_tasks:
+        file: universal.yml
