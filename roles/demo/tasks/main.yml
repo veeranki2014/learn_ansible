@@ -1,5 +1,5 @@
 - name: Roles Demo
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Sample Role
       ansible.builtin.debug:
