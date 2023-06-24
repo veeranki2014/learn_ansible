@@ -2,10 +2,11 @@
   hosts: localhost
   connection: local
   tasks:
-    ansible.builtin.debug:
-      msg: Fruit Name - {{ item }}
-    loop:
-      - banana
-      - apple
-      - orange
-      - apple
+    - name: Print Fruit name
+      ansible.builtin.debug:
+        msg: Fruit Name - {{ item }}
+      loop:
+        - banana
+        - apple
+        - orange
+        - apple
