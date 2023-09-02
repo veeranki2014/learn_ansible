@@ -5,7 +5,8 @@
     fruit_name: apple
     quantity: 100
   tasks:
-    ansible.builtin.template:
-      src: test.txt
-      dest: /tmp/test.txt
+    - name: Copy a file
+      ansible.builtin.template:
+        src: test.txt
+        dest: /tmp/test.txt
 
